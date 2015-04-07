@@ -1,2 +1,5 @@
-# kryptonotes
-Application for keeping your private date safe
+## kryptonotes
+Application for keeping your private data safely
+
+
+

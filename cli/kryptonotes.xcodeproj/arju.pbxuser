@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 0CF8414B158BD0090047F529 /* kryptonotes */;
+		activeTarget = 8DD76FA90486AB0100D96B5E /* kryptonotes */;
+		addToTargets = (
+			8DD76FA90486AB0100D96B5E /* kryptonotes */,
+		);
+		codeSenseManager = 0CF84153158BD0280047F529 /* Code sense */;
+		executables = (
+			0CF8414B158BD0090047F529 /* kryptonotes */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					901,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					877,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 362048685;
+			PBXWorkspaceStateSaveDate = 362048685;
+		};
+		perUserProjectItems = {
+			0CA740CB159631D500AF6034 /* PBXTextBookmark */ = 0CA740CB159631D500AF6034 /* PBXTextBookmark */;
+			0CA740CC159631D500AF6034 /* PBXTextBookmark */ = 0CA740CC159631D500AF6034 /* PBXTextBookmark */;
+			0CA740CD159631D500AF6034 /* PBXTextBookmark */ = 0CA740CD159631D500AF6034 /* PBXTextBookmark */;
+			0CA740E61596386100AF6034 /* PBXTextBookmark */ = 0CA740E61596386100AF6034 /* PBXTextBookmark */;
+			0CB51F4B158FB8CA001519D9 /* PBXTextBookmark */ = 0CB51F4B158FB8CA001519D9 /* PBXTextBookmark */;
+			0CB51F4C158FB8CA001519D9 /* PBXTextBookmark */ = 0CB51F4C158FB8CA001519D9 /* PBXTextBookmark */;
+			0CB51F4D158FB8CA001519D9 /* PBXTextBookmark */ = 0CB51F4D158FB8CA001519D9 /* PBXTextBookmark */;
+			0CB51F4E158FB8CA001519D9 /* PBXTextBookmark */ = 0CB51F4E158FB8CA001519D9 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 0CF84152158BD0280047F529 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* main.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {558, 2743}}";
+			sepNavSelRange = "{4058, 0}";
+			sepNavVisRange = "{3940, 533}";
+			sepNavWindowFrame = "{{15, 86}, {1357, 937}}";
+		};
+	};
+	0CA740CB159631D500AF6034 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0CF84167158BD1790047F529 /* crypt.h */;
+		name = "crypt.h: 54";
+		rLen = 0;
+		rLoc = 1719;
+		rType = 0;
+		vrLen = 1467;
+		vrLoc = 293;
+	};
+	0CA740CC159631D500AF6034 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 178";
+		rLen = 37;
+		rLoc = 3866;
+		rType = 0;
+		vrLen = 1144;
+		vrLoc = 3603;
+	};
+	0CA740CD159631D500AF6034 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0CF84166158BD1790047F529 /* crypt.c */;
+		name = "crypt.c: 230";
+		rLen = 0;
+		rLoc = 6744;
+		rType = 0;
+		vrLen = 1528;
+		vrLoc = 5198;
+	};
+	0CA740E61596386100AF6034 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0CF84166158BD1790047F529 /* crypt.c */;
+		name = "crypt.c: 98";
+		rLen = 0;
+		rLoc = 2812;
+		rType = 0;
+		vrLen = 1623;
+		vrLoc = 5123;
+	};
+	0CB51F26158BD972001519D9 /* kryptonotes.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 617}}";
+			sepNavSelRange = "{356, 0}";
+			sepNavVisRange = "{0, 632}";
+			sepNavWindowFrame = "{{15, 86}, {1357, 937}}";
+		};
+	};
+	0CB51F35158FA87D001519D9 /* mkxml.awk */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {799, 600}}";
+			sepNavSelRange = "{212, 0}";
+			sepNavVisRange = "{0, 263}";
+		};
+	};
+	0CB51F4B158FB8CA001519D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0CB51F26158BD972001519D9 /* kryptonotes.txt */;
+		name = "kryptonotes.txt: 22";
+		rLen = 0;
+		rLoc = 356;
+		rType = 0;
+		vrLen = 632;
+		vrLoc = 0;
+	};
+	0CB51F4C158FB8CA001519D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0CF8416A158BD18A0047F529 /* Makefile.macosx */;
+		name = "Makefile.macosx: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 523;
+		vrLoc = 0;
+	};
+	0CB51F4D158FB8CA001519D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0CF84169158BD18A0047F529 /* Makefile.linux */;
+		name = "Makefile.linux: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 549;
+		vrLoc = 0;
+	};
+	0CB51F4E158FB8CA001519D9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0CB51F35158FA87D001519D9 /* mkxml.awk */;
+		name = "mkxml.awk: 10";
+		rLen = 0;
+		rLoc = 212;
+		rType = 0;
+		vrLen = 263;
+		vrLoc = 0;
+	};
+	0CF8414B158BD0090047F529 /* kryptonotes */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = kryptonotes;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	0CF84152158BD0280047F529 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	0CF84153158BD0280047F529 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	0CF84166158BD1790047F529 /* crypt.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1079, 3081}}";
+			sepNavSelRange = "{2812, 0}";
+			sepNavVisRange = "{5123, 1623}";
+		};
+	};
+	0CF84167158BD1790047F529 /* crypt.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1079, 741}}";
+			sepNavSelRange = "{1719, 0}";
+			sepNavVisRange = "{293, 1467}";
+			sepNavWindowFrame = "{{15, 86}, {1357, 937}}";
+		};
+	};
+	0CF84169158BD18A0047F529 /* Makefile.linux */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 617}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 549}";
+		};
+	};
+	0CF8416A158BD18A0047F529 /* Makefile.macosx */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 617}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 523}";
+		};
+	};
+	8DD76FA90486AB0100D96B5E /* kryptonotes */ = {
+		activeExec = 0;
+		executables = (
+			0CF8414B158BD0090047F529 /* kryptonotes */,
+		);
+	};
+}

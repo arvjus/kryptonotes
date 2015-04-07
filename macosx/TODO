@@ -1,0 +1,30 @@
+
+- document tab
+  + read/validate version on save
+  + read encryption type on save
+  + display warnign on attemt to save in clear text
+  - disable drop down when document is locked
+
+- password
+  - prompt dialog
+
+
+- menu 
+  + remove unused items
+  + add change password
+
+
+
+- notes
+  - hide/disable items if group is selected
+  - enanble buttons accrding current state
+
+
+- help
+  - about dialog
+  - help window
+
+
+- code improvements
+  - run memory analyzer
+  - refactoring in kndocument

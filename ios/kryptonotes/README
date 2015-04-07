@@ -1,0 +1,7 @@
+
+
+Install openssl
+---------------
+
+Download archive from https://github.com/st3fan/ios-openssl , unzip, rename to openssl and move project's parent directory.
+

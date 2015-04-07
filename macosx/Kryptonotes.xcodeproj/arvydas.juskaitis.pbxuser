@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	0CF621A6160EE6EF004AECBA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 760E175417E202D100AA5A84 /* Kryptonotes */;
+		activeTarget = 0CF621AE160EE6EF004AECBA /* Kryptonotes */;
+		codeSenseManager = 760E176617E202D300AA5A84 /* Code sense */;
+		executables = (
+			760E175417E202D100AA5A84 /* Kryptonotes */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 400687825;
+			PBXWorkspaceStateSaveDate = 400687825;
+		};
+		sourceControlManager = 760E176517E202D300AA5A84 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	0CF621AE160EE6EF004AECBA /* Kryptonotes */ = {
+		activeExec = 0;
+		executables = (
+			760E175417E202D100AA5A84 /* Kryptonotes */,
+		);
+	};
+	760E175417E202D100AA5A84 /* Kryptonotes */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Kryptonotes;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	760E176517E202D300AA5A84 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	760E176617E202D300AA5A84 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

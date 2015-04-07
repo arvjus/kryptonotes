@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C10BEA915939F0B00949B81 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C10BEA715939F0B00949B81 /* lock.png */; };
+		0C10BEAA15939F0B00949B81 /* unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C10BEA815939F0B00949B81 /* unlock.png */; };
+		0C10BF1D1593B7BC00949B81 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C10BF1C1593B7BC00949B81 /* AudioToolbox.framework */; };
+		0C10BF661593C32200949B81 /* kryptonotes.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C10BF651593C32200949B81 /* kryptonotes.png */; };
+		0C27169A159E424800BA6570 /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = 0C271699159E424800BA6570 /* TODO */; };
+		0C27169C159E481D00BA6570 /* error.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0C27169B159E481D00BA6570 /* error.caf */; };
+		0C4B5983159667F400EBBB0F /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4B5982159667F400EBBB0F /* Document.m */; };
+		0C4BBDD31593770F007AA3CD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4BBDD11593770F007AA3CD /* MainViewController.m */; };
+		0C4BBDD41593770F007AA3CD /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C4BBDD21593770F007AA3CD /* MainView.xib */; };
+		0C761D13159753CF00032F76 /* crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C761D11159753CF00032F76 /* crypt.c */; };
+		0CC199C9159772DD00DAC1BC /* lock.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0CC199C7159772DD00DAC1BC /* lock.caf */; };
+		0CC199CA159772DD00DAC1BC /* unlock.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0CC199C8159772DD00DAC1BC /* unlock.caf */; };
+		0CC3179D159CE2C30060A260 /* DocumentSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC3179C159CE2C30060A260 /* DocumentSelector.m */; };
+		0CD0EC79159A2DDF00CE1C3B /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD0EC78159A2DDF00CE1C3B /* Item.m */; };
+		0CD0ED0C159A452F00CE1C3B /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD0ED0A159A452F00CE1C3B /* ListViewController.m */; };
+		0CD0ED0D159A452F00CE1C3B /* ListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD0ED0B159A452F00CE1C3B /* ListView.xib */; };
+		0CD0ED4B159A50D300CE1C3B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD0ED49159A50D300CE1C3B /* DetailViewController.m */; };
+		0CD0ED4C159A50D300CE1C3B /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD0ED4A159A50D300CE1C3B /* DetailView.xib */; };
+		0CD0EDB7159B3EB300CE1C3B /* DocumentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD0EDB6159B3EB300CE1C3B /* DocumentParser.m */; };
+		0CE33686159B596B006BA963 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE33685159B596B006BA963 /* Section.m */; };
+		1D3623260D0F684500981E51 /* kryptonotesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* kryptonotesAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		766BBCF117E09DC0002A513E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 766BBCF017E09DC0002A513E /* Default-568h@2x.png */; };
+		76CADF5F17E09869002D9E67 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CADF5E17E09869002D9E67 /* libcrypto.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C10BEA715939F0B00949B81 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		0C10BEA815939F0B00949B81 /* unlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlock.png; sourceTree = "<group>"; };
+		0C10BF1C1593B7BC00949B81 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0C10BF651593C32200949B81 /* kryptonotes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kryptonotes.png; sourceTree = "<group>"; };
+		0C271699159E424800BA6570 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		0C27169B159E481D00BA6570 /* error.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = error.caf; sourceTree = "<group>"; };
+		0C4B5981159667F400EBBB0F /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		0C4B5982159667F400EBBB0F /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		0C4BBDD01593770F007AA3CD /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		0C4BBDD11593770F007AA3CD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		0C4BBDD21593770F007AA3CD /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		0C761D11159753CF00032F76 /* crypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypt.c; sourceTree = "<group>"; };
+		0C761D12159753CF00032F76 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		0CC199C7159772DD00DAC1BC /* lock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lock.caf; sourceTree = "<group>"; };
+		0CC199C8159772DD00DAC1BC /* unlock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = unlock.caf; sourceTree = "<group>"; };
+		0CC3179B159CE2C30060A260 /* DocumentSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentSelector.h; sourceTree = "<group>"; };
+		0CC3179C159CE2C30060A260 /* DocumentSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentSelector.m; sourceTree = "<group>"; };
+		0CD0EC77159A2DDF00CE1C3B /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		0CD0EC78159A2DDF00CE1C3B /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		0CD0ED09159A452F00CE1C3B /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewController.h; path = ../ListViewController.h; sourceTree = "<group>"; };
+		0CD0ED0A159A452F00CE1C3B /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewController.m; path = ../ListViewController.m; sourceTree = "<group>"; };
+		0CD0ED0B159A452F00CE1C3B /* ListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListView.xib; sourceTree = "<group>"; };
+		0CD0ED48159A50D300CE1C3B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		0CD0ED49159A50D300CE1C3B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		0CD0ED4A159A50D300CE1C3B /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		0CD0EDB5159B3EB300CE1C3B /* DocumentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentParser.h; sourceTree = "<group>"; };
+		0CD0EDB6159B3EB300CE1C3B /* DocumentParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentParser.m; sourceTree = "<group>"; };
+		0CE33684159B596B006BA963 /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
+		0CE33685159B596B006BA963 /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* kryptonotesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kryptonotesAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* kryptonotesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kryptonotesAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* kryptonotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kryptonotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* kryptonotes_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kryptonotes_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		766BBCF017E09DC0002A513E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		766BBCF217E09E94002A513E /* kryptonotes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = kryptonotes.entitlements; sourceTree = "<group>"; };
+		76CADF5E17E09869002D9E67 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = ../openssl/lib/libcrypto.a; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* kryptonotes-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "kryptonotes-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				0C10BF1D1593B7BC00949B81 /* AudioToolbox.framework in Frameworks */,
+				76CADF5F17E09869002D9E67 /* libcrypto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0CD0ED48159A50D300CE1C3B /* DetailViewController.h */,
+				0CD0ED49159A50D300CE1C3B /* DetailViewController.m */,
+				0CD0ED09159A452F00CE1C3B /* ListViewController.h */,
+				0CD0ED0A159A452F00CE1C3B /* ListViewController.m */,
+				0C761D11159753CF00032F76 /* crypt.c */,
+				0C761D12159753CF00032F76 /* crypt.h */,
+				0C4BBDD01593770F007AA3CD /* MainViewController.h */,
+				0C4BBDD11593770F007AA3CD /* MainViewController.m */,
+				1D3623240D0F684500981E51 /* kryptonotesAppDelegate.h */,
+				1D3623250D0F684500981E51 /* kryptonotesAppDelegate.m */,
+				0C4B5981159667F400EBBB0F /* Document.h */,
+				0C4B5982159667F400EBBB0F /* Document.m */,
+				0CD0EC77159A2DDF00CE1C3B /* Item.h */,
+				0CD0EC78159A2DDF00CE1C3B /* Item.m */,
+				0CD0EDB5159B3EB300CE1C3B /* DocumentParser.h */,
+				0CD0EDB6159B3EB300CE1C3B /* DocumentParser.m */,
+				0CE33684159B596B006BA963 /* Section.h */,
+				0CE33685159B596B006BA963 /* Section.m */,
+				0CC3179B159CE2C30060A260 /* DocumentSelector.h */,
+				0CC3179C159CE2C30060A260 /* DocumentSelector.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* kryptonotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				766BBCF217E09E94002A513E /* kryptonotes.entitlements */,
+				766BBCF017E09DC0002A513E /* Default-568h@2x.png */,
+				76CADF6017E09877002D9E67 /* lib */,
+				0C271699159E424800BA6570 /* TODO */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* kryptonotes_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C27169B159E481D00BA6570 /* error.caf */,
+				0CC199C7159772DD00DAC1BC /* lock.caf */,
+				0CC199C8159772DD00DAC1BC /* unlock.caf */,
+				0C10BF651593C32200949B81 /* kryptonotes.png */,
+				0C10BEA715939F0B00949B81 /* lock.png */,
+				0C10BEA815939F0B00949B81 /* unlock.png */,
+				0C4BBDD21593770F007AA3CD /* MainView.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* kryptonotes-Info.plist */,
+				0CD0ED0B159A452F00CE1C3B /* ListView.xib */,
+				0CD0ED4A159A50D300CE1C3B /* DetailView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				0C10BF1C1593B7BC00949B81 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76CADF6017E09877002D9E67 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				76CADF5E17E09869002D9E67 /* libcrypto.a */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* kryptonotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "kryptonotes" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kryptonotes;
+			productName = kryptonotes;
+			productReference = 1D6058910D05DD3D006BFB54 /* kryptonotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "kryptonotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* kryptonotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				0C4BBDD41593770F007AA3CD /* MainView.xib in Resources */,
+				0C10BEA915939F0B00949B81 /* lock.png in Resources */,
+				0C10BEAA15939F0B00949B81 /* unlock.png in Resources */,
+				0C10BF661593C32200949B81 /* kryptonotes.png in Resources */,
+				0CC199C9159772DD00DAC1BC /* lock.caf in Resources */,
+				0CC199CA159772DD00DAC1BC /* unlock.caf in Resources */,
+				0CD0ED0D159A452F00CE1C3B /* ListView.xib in Resources */,
+				0CD0ED4C159A50D300CE1C3B /* DetailView.xib in Resources */,
+				0C27169A159E424800BA6570 /* TODO in Resources */,
+				0C27169C159E481D00BA6570 /* error.caf in Resources */,
+				766BBCF117E09DC0002A513E /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* kryptonotesAppDelegate.m in Sources */,
+				0C4BBDD31593770F007AA3CD /* MainViewController.m in Sources */,
+				0C4B5983159667F400EBBB0F /* Document.m in Sources */,
+				0C761D13159753CF00032F76 /* crypt.c in Sources */,
+				0CD0EC79159A2DDF00CE1C3B /* Item.m in Sources */,
+				0CD0ED0C159A452F00CE1C3B /* ListViewController.m in Sources */,
+				0CD0ED4B159A50D300CE1C3B /* DetailViewController.m in Sources */,
+				0CD0EDB7159B3EB300CE1C3B /* DocumentParser.m in Sources */,
+				0CE33686159B596B006BA963 /* Section.m in Sources */,
+				0CC3179D159CE2C30060A260 /* DocumentSelector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_ENTITLEMENTS = kryptonotes.entitlements;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = kryptonotes_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/Users/arvydas.juskaitis/xcode-projects/ios/openssl/include";
+				INFOPLIST_FILE = "kryptonotes-Info.plist";
+				LIBRARY_SEARCH_PATHS = "/Users/arvydas.juskaitis/xcode-projects/ios/openssl/lib";
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = kryptonotes;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_ENTITLEMENTS = kryptonotes.entitlements;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = kryptonotes_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/Users/arvydas.juskaitis/xcode-projects/ios/openssl/include";
+				INFOPLIST_FILE = "kryptonotes-Info.plist";
+				LIBRARY_SEARCH_PATHS = "/Users/arvydas.juskaitis/xcode-projects/ios/openssl/lib";
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = kryptonotes;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Arvid Juskaitis (EY4WWZ4HB8)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FC37190B-760E-4373-BB93-9118AE8F0619";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Arvid Juskaitis (EY4WWZ4HB8)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FC37190B-760E-4373-BB93-9118AE8F0619";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "kryptonotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "kryptonotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6A7209AA-69CD-4604-85E4-1F3A109955D7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>kryptonotes</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EA2527A58FC412C6E04F8059ED9954FABAF4DCEC</key>
+		<string>/data/git/devel/mixed/kryptonotes.git/</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/kryptonotes/kryptonotes/kryptonotes.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EA2527A58FC412C6E04F8059ED9954FABAF4DCEC</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>/data/git/devel/mixed/kryptonotes.git/</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EA2527A58FC412C6E04F8059ED9954FABAF4DCEC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EA2527A58FC412C6E04F8059ED9954FABAF4DCEC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>kryptonotes</string>
+		</dict>
+	</array>
+</dict>
+</plist>

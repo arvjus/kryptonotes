@@ -1,0 +1,24 @@
+.PHONY: all clear
+
+all: kryptonotes
+
+kryptonotes: main.c 
+	gcc -g -o kryptonotes main.c crypt.c -lcrypto
+
+test: kryptonotes
+	./kryptonotes -e -I test.txt -O test.out -p bbd
+	./kryptonotes -d -I test.out -O test.tmp -p bbd
+	diff test.txt test.tmp
+
+clean: 
+	rm -f kryptonotes *.o *.out *.tmp *.dat
+
+install: kryptonotes
+	cp kryptonotes /usr/local/bin
+	cp kryptonotes.sh /usr/local/bin
+
+	cp ../data/kryptonotes.xml /usr/share/mime/packages
+	update-mime-database /usr/share/mime
+
+	cp kryptonotes.desktop /usr/share/applications
+	update-desktop-database

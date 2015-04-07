@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C2E95EF162205A40081B823 /* DocumentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2E95EE162205A40081B823 /* DocumentModel.m */; };
+		0C3574EA1630B0B8009963C1 /* KNApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3574E91630B0B8009963C1 /* KNApplicationDelegate.m */; };
+		0CF621B4160EE6EF004AECBA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF621B3160EE6EF004AECBA /* Cocoa.framework */; };
+		0CF621BE160EE6EF004AECBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CF621BC160EE6EF004AECBA /* InfoPlist.strings */; };
+		0CF621C0160EE6EF004AECBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF621BF160EE6EF004AECBA /* main.m */; };
+		0CF621C4160EE6EF004AECBA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF621C2160EE6EF004AECBA /* Credits.rtf */; };
+		0CF621C7160EE6EF004AECBA /* KNDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF621C6160EE6EF004AECBA /* KNDocument.m */; };
+		0CF621CA160EE6EF004AECBA /* KNDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CF621C8160EE6EF004AECBA /* KNDocument.xib */; };
+		0CF621CD160EE6F0004AECBA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CF621CB160EE6EF004AECBA /* MainMenu.xib */; };
+		0CF621D5160EEA05004AECBA /* crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CF621D3160EEA05004AECBA /* crypt.c */; };
+		0CF621DF160EF0BC004AECBA /* DocumentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF621DA160EF0BB004AECBA /* DocumentParser.m */; };
+		0CF621E0160EF0BC004AECBA /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF621DC160EF0BB004AECBA /* Item.m */; };
+		0CF621E1160EF0BC004AECBA /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF621DE160EF0BC004AECBA /* Section.m */; };
+		0CF621EC160F5FD1004AECBA /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CF621E3160F5FD1004AECBA /* lock.png */; };
+		0CF621ED160F5FD1004AECBA /* unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CF621E4160F5FD1004AECBA /* unlock.png */; };
+		0CF621EE160F5FD1004AECBA /* kryptonotes.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0CF621E7160F5FD1004AECBA /* kryptonotes.icns */; };
+		0CF621EF160F5FD1004AECBA /* error.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF621E9160F5FD1004AECBA /* error.caf */; };
+		0CF621F0160F5FD1004AECBA /* lock.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF621EA160F5FD1004AECBA /* lock.caf */; };
+		0CF621F1160F5FD1004AECBA /* unlock.caf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF621EB160F5FD1004AECBA /* unlock.caf */; };
+		0CF621F3160FA26F004AECBA /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = 0CF621F2160FA26F004AECBA /* TODO */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C2E95ED162205A40081B823 /* DocumentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentModel.h; sourceTree = "<group>"; };
+		0C2E95EE162205A40081B823 /* DocumentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentModel.m; sourceTree = "<group>"; };
+		0C3574E81630B0B8009963C1 /* KNApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNApplicationDelegate.h; sourceTree = "<group>"; };
+		0C3574E91630B0B8009963C1 /* KNApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNApplicationDelegate.m; sourceTree = "<group>"; };
+		0CDD971C16160AA500BECBDF /* constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		0CF621AF160EE6EF004AECBA /* Kryptonotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kryptonotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CF621B3160EE6EF004AECBA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0CF621B6160EE6EF004AECBA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0CF621B7160EE6EF004AECBA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0CF621B8160EE6EF004AECBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0CF621BB160EE6EF004AECBA /* Kryptonotes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kryptonotes-Info.plist"; sourceTree = "<group>"; };
+		0CF621BD160EE6EF004AECBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0CF621BF160EE6EF004AECBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CF621C1160EE6EF004AECBA /* Kryptonotes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kryptonotes-Prefix.pch"; sourceTree = "<group>"; };
+		0CF621C3160EE6EF004AECBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0CF621C5160EE6EF004AECBA /* KNDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNDocument.h; sourceTree = "<group>"; };
+		0CF621C6160EE6EF004AECBA /* KNDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNDocument.m; sourceTree = "<group>"; };
+		0CF621C9160EE6EF004AECBA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KNDocument.xib; sourceTree = "<group>"; };
+		0CF621CC160EE6EF004AECBA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0CF621D3160EEA05004AECBA /* crypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypt.c; sourceTree = "<group>"; };
+		0CF621D4160EEA05004AECBA /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		0CF621D9160EF0BB004AECBA /* DocumentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentParser.h; sourceTree = "<group>"; };
+		0CF621DA160EF0BB004AECBA /* DocumentParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentParser.m; sourceTree = "<group>"; };
+		0CF621DB160EF0BB004AECBA /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		0CF621DC160EF0BB004AECBA /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		0CF621DD160EF0BC004AECBA /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
+		0CF621DE160EF0BC004AECBA /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
+		0CF621E3160F5FD1004AECBA /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		0CF621E4160F5FD1004AECBA /* unlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlock.png; sourceTree = "<group>"; };
+		0CF621E7160F5FD1004AECBA /* kryptonotes.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = kryptonotes.icns; sourceTree = "<group>"; };
+		0CF621E9160F5FD1004AECBA /* error.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = error.caf; sourceTree = "<group>"; };
+		0CF621EA160F5FD1004AECBA /* lock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lock.caf; sourceTree = "<group>"; };
+		0CF621EB160F5FD1004AECBA /* unlock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = unlock.caf; sourceTree = "<group>"; };
+		0CF621F2160FA26F004AECBA /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CF621AC160EE6EF004AECBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF621B4160EE6EF004AECBA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CF621A4160EE6EF004AECBA = {
+			isa = PBXGroup;
+			children = (
+				0CF621F2160FA26F004AECBA /* TODO */,
+				0CF621B9160EE6EF004AECBA /* Kryptonotes */,
+				0CF621E2160F5FD1004AECBA /* Images */,
+				0CF621E5160F5FD1004AECBA /* Resources */,
+				0CF621E8160F5FD1004AECBA /* Sounds */,
+				0CF621B2160EE6EF004AECBA /* Frameworks */,
+				0CF621B0160EE6EF004AECBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CF621B0160EE6EF004AECBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CF621AF160EE6EF004AECBA /* Kryptonotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CF621B2160EE6EF004AECBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CF621B3160EE6EF004AECBA /* Cocoa.framework */,
+				0CF621B5160EE6EF004AECBA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CF621B5160EE6EF004AECBA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CF621B6160EE6EF004AECBA /* AppKit.framework */,
+				0CF621B7160EE6EF004AECBA /* CoreData.framework */,
+				0CF621B8160EE6EF004AECBA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0CF621B9160EE6EF004AECBA /* Kryptonotes */ = {
+			isa = PBXGroup;
+			children = (
+				0C2E95ED162205A40081B823 /* DocumentModel.h */,
+				0C2E95EE162205A40081B823 /* DocumentModel.m */,
+				0CDD971C16160AA500BECBDF /* constants.h */,
+				0CF621D9160EF0BB004AECBA /* DocumentParser.h */,
+				0CF621DA160EF0BB004AECBA /* DocumentParser.m */,
+				0CF621DB160EF0BB004AECBA /* Item.h */,
+				0CF621DC160EF0BB004AECBA /* Item.m */,
+				0CF621DD160EF0BC004AECBA /* Section.h */,
+				0CF621DE160EF0BC004AECBA /* Section.m */,
+				0CF621D3160EEA05004AECBA /* crypt.c */,
+				0CF621D4160EEA05004AECBA /* crypt.h */,
+				0CF621C5160EE6EF004AECBA /* KNDocument.h */,
+				0CF621C6160EE6EF004AECBA /* KNDocument.m */,
+				0C3574E81630B0B8009963C1 /* KNApplicationDelegate.h */,
+				0C3574E91630B0B8009963C1 /* KNApplicationDelegate.m */,
+				0CF621C8160EE6EF004AECBA /* KNDocument.xib */,
+				0CF621CB160EE6EF004AECBA /* MainMenu.xib */,
+				0CF621BA160EE6EF004AECBA /* Supporting Files */,
+			);
+			path = Kryptonotes;
+			sourceTree = "<group>";
+		};
+		0CF621BA160EE6EF004AECBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CF621BB160EE6EF004AECBA /* Kryptonotes-Info.plist */,
+				0CF621BC160EE6EF004AECBA /* InfoPlist.strings */,
+				0CF621BF160EE6EF004AECBA /* main.m */,
+				0CF621C1160EE6EF004AECBA /* Kryptonotes-Prefix.pch */,
+				0CF621C2160EE6EF004AECBA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CF621E2160F5FD1004AECBA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0CF621E3160F5FD1004AECBA /* lock.png */,
+				0CF621E4160F5FD1004AECBA /* unlock.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0CF621E5160F5FD1004AECBA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0CF621E6160F5FD1004AECBA /* macos */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0CF621E6160F5FD1004AECBA /* macos */ = {
+			isa = PBXGroup;
+			children = (
+				0CF621E7160F5FD1004AECBA /* kryptonotes.icns */,
+			);
+			path = macos;
+			sourceTree = "<group>";
+		};
+		0CF621E8160F5FD1004AECBA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0CF621E9160F5FD1004AECBA /* error.caf */,
+				0CF621EA160F5FD1004AECBA /* lock.caf */,
+				0CF621EB160F5FD1004AECBA /* unlock.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CF621AE160EE6EF004AECBA /* Kryptonotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CF621D0160EE6F0004AECBA /* Build configuration list for PBXNativeTarget "Kryptonotes" */;
+			buildPhases = (
+				0CF621AB160EE6EF004AECBA /* Sources */,
+				0CF621AC160EE6EF004AECBA /* Frameworks */,
+				0CF621AD160EE6EF004AECBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kryptonotes;
+			productName = Kryptonotes;
+			productReference = 0CF621AF160EE6EF004AECBA /* Kryptonotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CF621A6160EE6EF004AECBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Arvid Juskaitis";
+			};
+			buildConfigurationList = 0CF621A9160EE6EF004AECBA /* Build configuration list for PBXProject "Kryptonotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0CF621A4160EE6EF004AECBA;
+			productRefGroup = 0CF621B0160EE6EF004AECBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CF621AE160EE6EF004AECBA /* Kryptonotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CF621AD160EE6EF004AECBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF621BE160EE6EF004AECBA /* InfoPlist.strings in Resources */,
+				0CF621C4160EE6EF004AECBA /* Credits.rtf in Resources */,
+				0CF621CA160EE6EF004AECBA /* KNDocument.xib in Resources */,
+				0CF621CD160EE6F0004AECBA /* MainMenu.xib in Resources */,
+				0CF621EC160F5FD1004AECBA /* lock.png in Resources */,
+				0CF621ED160F5FD1004AECBA /* unlock.png in Resources */,
+				0CF621EE160F5FD1004AECBA /* kryptonotes.icns in Resources */,
+				0CF621EF160F5FD1004AECBA /* error.caf in Resources */,
+				0CF621F0160F5FD1004AECBA /* lock.caf in Resources */,
+				0CF621F1160F5FD1004AECBA /* unlock.caf in Resources */,
+				0CF621F3160FA26F004AECBA /* TODO in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CF621AB160EE6EF004AECBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF621C0160EE6EF004AECBA /* main.m in Sources */,
+				0CF621C7160EE6EF004AECBA /* KNDocument.m in Sources */,
+				0CF621D5160EEA05004AECBA /* crypt.c in Sources */,
+				0CF621DF160EF0BC004AECBA /* DocumentParser.m in Sources */,
+				0CF621E0160EF0BC004AECBA /* Item.m in Sources */,
+				0CF621E1160EF0BC004AECBA /* Section.m in Sources */,
+				0C2E95EF162205A40081B823 /* DocumentModel.m in Sources */,
+				0C3574EA1630B0B8009963C1 /* KNApplicationDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0CF621BC160EE6EF004AECBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CF621BD160EE6EF004AECBA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0CF621C2160EE6EF004AECBA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CF621C3160EE6EF004AECBA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0CF621C8160EE6EF004AECBA /* KNDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CF621C9160EE6EF004AECBA /* en */,
+			);
+			name = KNDocument.xib;
+			sourceTree = "<group>";
+		};
+		0CF621CB160EE6EF004AECBA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CF621CC160EE6EF004AECBA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CF621CE160EE6F0004AECBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0CF621CF160EE6F0004AECBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0CF621D1160EE6F0004AECBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kryptonotes/Kryptonotes-Prefix.pch";
+				INFOPLIST_FILE = "Kryptonotes/Kryptonotes-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = "-lcrypto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0CF621D2160EE6F0004AECBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kryptonotes/Kryptonotes-Prefix.pch";
+				INFOPLIST_FILE = "Kryptonotes/Kryptonotes-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = "-lcrypto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CF621A9160EE6EF004AECBA /* Build configuration list for PBXProject "Kryptonotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CF621CE160EE6F0004AECBA /* Debug */,
+				0CF621CF160EE6F0004AECBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CF621D0160EE6F0004AECBA /* Build configuration list for PBXNativeTarget "Kryptonotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CF621D1160EE6F0004AECBA /* Debug */,
+				0CF621D2160EE6F0004AECBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CF621A6160EE6EF004AECBA /* Project object */;
+}

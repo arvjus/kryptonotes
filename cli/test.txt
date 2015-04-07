@@ -1,0 +1,4 @@
+login|tradera|www.tradera.com\nuser:arvydasj\npwd:bbd
+login|gmail|www.gmail.com\nuser:arvydas.juskaitis\npwd:xxx
+security|mogul alarm|code:123456
+security|laptop lock|code:1234

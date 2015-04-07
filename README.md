@@ -4,7 +4,7 @@
 
 The MIT License (MIT)
 
-Copyright © 2010-2015 Arvid Juskaitis <arvydas.juskaitis@gmail.com>
+Copyright © 2007-2015 Arvid Juskaitis <arvydas.juskaitis@gmail.com>
 
 
 

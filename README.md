@@ -23,13 +23,12 @@ All versions of application shares the same file format, thus compatible with ea
 Click to view.
 
 
-#### iOS
+#### MacOSX
 
 [![Document](https://raw.githubusercontent.com/arvjus/kryptonotes/master/screenshots/macosx-document-thumb.png)](https://raw.githubusercontent.com/arvjus/kryptonotes/master/screenshots/macosx-document.png)  [![Notes](https://raw.githubusercontent.com/arvjus/kryptonotes/master/screenshots/macosx-notes-thumb.png)](https://raw.githubusercontent.com/arvjus/kryptonotes/master/screenshots/macosx-notes.png)
 
 
-
-#### MacOSX
+#### iOS
 
 [![Document](https://raw.githubusercontent.com/arvjus/kryptonotes/master/screenshots/ios-document-thumb.png)](https://raw.githubusercontent.com/arvjus/kryptonotes/master/screenshots/ios-document.png)  [![List](https://raw.githubusercontent.com/arvjus/kryptonotes/master/screenshots/ios-list-thumb.png)](https://raw.githubusercontent.com/arvjus/kryptonotes/master/screenshots/ios-list.png)  [![Details](https://raw.githubusercontent.com/arvjus/kryptonotes/master/screenshots/ios-details-thumb.png)](https://raw.githubusercontent.com/arvjus/kryptonotes/master/screenshots/ios-details.png)
 
